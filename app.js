@@ -13,11 +13,11 @@ app.get('/', (req, res) => {
             </html>
 
     `)
-})
+});
 
 app.get('/puppies', (req, res) => {
     res.send(`// Omitted for brevity`)
-})
+});
 
 app.get('/kittens', (req, res) => {
     res.send(`//Omitted for brevity`)
