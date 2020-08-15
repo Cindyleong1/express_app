@@ -21,7 +21,7 @@ app.get('/puppies', (req, res) => {
 
 app.get('/kittens', (req, res) => {
     res.send(`//Omitted for brevity`)
-})
+});
 
 const PORT = 1337;
 app.listen(PORT,() => {
